@@ -2,9 +2,11 @@
 #define RT_GFX
 
 #include "Adafruit_GFX.h"
+#include "Point.h"
+#include "Context.h"
 
 namespace RTGFX {
-    using Context = Adafruit_GFX;
+
 }
 
 #endif /* RT_GFX */
